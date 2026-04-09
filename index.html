@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zarian Stephens | Portfolio</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <style>
+        body { font-family: 'Inter', sans-serif; scroll-behavior: smooth; }
+        .medical-gradient {
+            background: linear-gradient(135deg, #f8fafc 0%, #f1f5f9 100%);
+        }
+        .project-card:hover {
+            transform: translateY(-4px);
+        }
+    </style>
+</head>
+<body class="bg-white text-slate-900">
+
+    <nav class="sticky top-0 z-50 bg-white/90 backdrop-blur-md border-b border-slate-100">
+        <div class="max-w-5xl mx-auto px-6 py-4 flex justify-between items-center">
+            <span class="font-bold text-xl tracking-tight text-blue-700 uppercase italic">Z. Stephens</span>
+            <div class="hidden md:flex space-x-8 text-sm font-medium text-slate-600 items-center">
+                <a href="#about" class="hover:text-blue-600 transition">About</a>
+                <a href="#projects" class="hover:text-blue-600 transition">Portfolio</a>
+                <div class="flex flex-col text-right border-l pl-6 border-slate-200">
+                    <a href="mailto:zmichaelsteph@gmail.com" class="text-blue-600 hover:text-blue-800 transition text-xs font-bold tracking-tight">zmichaelsteph@gmail.com</a>
+                    <span class="text-slate-500 text-[11px] font-semibold tracking-wide">(865) 210-9569</span>
+                </div>
+                <a href="https://www.linkedin.com/in/zarian-stephens-94456221a" target="_blank" class="bg-blue-700 text-white px-5 py-2 rounded-lg hover:bg-blue-800 transition shadow-sm text-xs font-bold">LinkedIn</a>
+            </div>
+        </div>
+    </nav>
+
+    <header class="medical-gradient py-28 px-6 border-b border-slate-100 text-center md:text-left">
+        <div class="max-w-5xl mx-auto">
+            <span class="text-blue-600 font-bold tracking-widest uppercase text-xs bg-blue-50 px-4 py-1.5 rounded-full border border-blue-100">Business Information & Technology</span>
+            <h1 class="text-5xl md:text-7xl font-extrabold mt-8 mb-8 leading-[1.1] tracking-tighter text-slate-900">
+                Optimizing Clinical Workflows <br><span class="text-blue-700">through AI & Architecture.</span>
+            </h1>
+            <p class="text-lg text-slate-600 max-w-3xl mb-10 leading-relaxed font-light">
+                Eagle Scout and Developer specialized in full-stack systems. Driven by a mission to alleviate burnout in the medical field through precision intelligence and high-performance business technology.
+            </p>
+            <div class="flex flex-wrap justify-center md:justify-start gap-6 text-xs font-bold text-slate-400 uppercase tracking-widest">
+                <span class="flex items-center"><span class="w-2 h-2 bg-blue-500 rounded-full mr-2"></span>Eagle Scout</span>
+                <span class="flex items-center"><span class="w-2 h-2 bg-blue-500 rounded-full mr-2"></span>OSHA Certified</span>
+                <span class="flex items-center"><span class="w-2 h-2 bg-blue-500 rounded-full mr-2"></span>TN Tech University</span>
+            </div>
+        </div>
+    </header>
+
+    <section id="about" class="py-24 px-6 bg-slate-50">
+        <div class="max-w-5xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-16">
+            <div class="md:col-span-1">
+                <h2 class="text-xs font-bold text-blue-600 uppercase tracking-[0.2em] mb-4">Background</h2>
+                <h3 class="text-3xl font-extrabold text-slate-900">Technology with a Purpose.</h3>
+            </div>
+            <div class="md:col-span-2 space-y-6 text-slate-600 leading-relaxed">
+                <p>
+                    My passion for Medical AI is deeply personal. Watching my mother work long, exhausting hours in the healthcare industry exposed the critical levels of stress and overwork providers face. I believe that <strong>Business Information & Technology</strong> can be the bridge—creating AI-driven efficiencies that allow medical professionals to focus on care rather than administrative burden.
+                </p>
+                <p>
+                    As an <strong>Eagle Scout</strong>, I’ve always been committed to community service. For my Eagle project, I led the landscaping and installation of seating at our county’s Veterans Wall—a project that taught me the importance of precision, project management, and delivering results that last.
+                </p>
+                <div class="pt-4 flex items-center space-x-4">
+                    <span class="bg-blue-600 text-white px-4 py-2 rounded font-bold text-xs uppercase">Looking for: Summer Internship / Full-Time Graduate Roles</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <main id="projects" class="py-24 px-6 max-w-5xl mx-auto">
+        <h2 class="text-xs font-bold text-blue-600 uppercase tracking-[0.2em] mb-12">Professional Portfolio</h2>
+        
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-10">
+            
+            <div class="project-card group bg-white p-10 rounded-3xl border border-slate-100 shadow-xl shadow-slate-200/50 transition-all duration-300 flex flex-col justify-between">
+                <div>
+                    <div class="flex justify-between items-start mb-6">
+                        <h3 class="text-2xl font-bold text-slate-900">Hyprlite</h3>
+                        <span class="bg-blue-50 text-blue-700 text-[10px] font-bold px-3 py-1 rounded-full uppercase border border-blue-100">Medical AI</span>
+                    </div>
+                    <p class="text-slate-600 mb-8 leading-relaxed text-sm">A clinical-focused conversational AI platform engineered to reduce provider cognitive load. Fine-tuned for high-accuracy medical information retrieval and data integrity.</p>
+                </div>
+                <a href="https://hyprlite.com" target="_blank" class="text-blue-700 font-bold flex items-center group-hover:underline text-sm uppercase tracking-wider">
+                    Analyze Project <svg class="w-4 h-4 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path></svg>
+                </a>
+            </div>
+
+            <div class="project-card group bg-white p-10 rounded-3xl border border-slate-100 shadow-xl shadow-slate-200/50 transition-all duration-300 flex flex-col justify-between">
+                <div>
+                    <div class="flex justify-between items-start mb-6">
+                        <h3 class="text-2xl font-bold text-slate-900">Elixir Mixer</h3>
+                        <span class="bg-emerald-50 text-emerald-700 text-[10px] font-bold px-3 py-1 rounded-full uppercase border border-emerald-100">Full-Stack SaaS</span>
+                    </div>
+                    <p class="text-slate-600 mb-8 leading-relaxed text-sm">A comprehensive publication engine featuring automated newsletter generation, secure subscription services, and a custom front-to-back news delivery system.</p>
+                </div>
+                <a href="https://elixirmixeronwheels.com" target="_blank" class="text-blue-700 font-bold flex items-center group-hover:underline text-sm uppercase tracking-wider">
+                    Analyze Project <svg class="w-4 h-4 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path></svg>
+                </a>
+            </div>
+
+            <div class="project-card group bg-slate-900 p-10 rounded-3xl shadow-2xl transition-all duration-300 md:col-span-2 flex flex-col md:flex-row justify-between items-center text-white">
+                <div class="md:max-w-xl text-center md:text-left">
+                    <div class="flex items-center justify-center md:justify-start space-x-4 mb-6">
+                        <h3 class="text-2xl font-bold">Surface Theory Co.</h3>
+                        <span class="bg-white/10 text-white/80 text-[10px] font-bold px-3 py-1 rounded-full uppercase border border-white/20">Arch Branding</span>
+                    </div>
+                    <p class="text-slate-400 mb-8 md:mb-0 leading-relaxed text-sm">A professional digital platform for an environmental branding and fabrication house. Built to showcase immersive brand experiences, expert fabrication, and precision construction installs.</p>
+                </div>
+                <a href="https://surfacetheoryco.com" target="_blank" class="bg-white text-slate-900 px-10 py-4 rounded-xl font-extrabold hover:bg-blue-500 hover:text-white transition-all shadow-lg flex items-center uppercase text-xs tracking-widest">
+                    Launch Experience 
+                </a>
+            </div>
+
+        </div>
+    </main>
+
+    <footer class="bg-white border-t border-slate-100 py-16 px-6">
+        <div class="max-w-5xl mx-auto flex flex-col md:flex-row justify-between items-center gap-8">
+            <div class="text-center md:text-left">
+                <p class="text-slate-900 font-extrabold text-xl tracking-tighter mb-1">ZARIAN STEPHENS</p>
+                <p class="text-xs font-bold text-slate-400 uppercase tracking-[0.2em]">Building the Clinical Future</p>
+            </div>
+            <div class="flex space-x-12 text-[10px] font-bold tracking-widest uppercase items-center text-slate-500">
+                <a href="https://www.linkedin.com/in/zarian-stephens-94456221a" target="_blank" class="hover:text-blue-600 transition">LinkedIn</a>
+                <a href="mailto:zmichaelsteph@gmail.com" class="hover:text-blue-600 transition">Email</a>
+                <span>Cookeville, TN</span>
+            </div>
+        </div>
+        <div class="max-w-5xl mx-auto mt-12 text-center text-[10px] uppercase tracking-widest opacity-40 font-bold">
+            <p>&copy; 2026 Zarian Stephens. All rights reserved.</p>
+        </div>
+    </footer>
+
+</body>
+</html>
